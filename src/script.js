@@ -7,7 +7,7 @@ function typeText() {
   if (index < text.length) {
     typingElement.innerHTML += text.charAt(index);
     index++;
-    setTimeout(typeText, 250); // Velocidade da digitação
+    setTimeout(typeText, 200); // Velocidade da digitação
   }
 }
 
